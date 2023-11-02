@@ -5,9 +5,11 @@
 using namespace std;
 
 int main()
-{
-    enum {KROLL, ABOBA, SIKLA};
+{           
+    enum difficulty {EASY, ABOBA, SIKLA};
     cout << ABOBA;
+    difficulty myDifficulty = EASY; // myDifficulty може приймати значення лише з перечисленням enum difficulty
+
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
